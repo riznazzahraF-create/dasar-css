@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <h3>Selektor Elemen</h3>
+    </head>
+<body>
+    <style>
+    p {
+        text-align: center;
+        color: red;
+    }
+    </style>
+    <p>Every paragraph will be affected by the style.</p>
+    <p id="para1">Me too!</p>
+    <p>And me!</p>
+</body>
+    <hr>
+    
+<head>
+    <h3>Selektor ID</h3>
+</head>
+<body>
+    <style>
+        #para2 {
+            text-align: right;
+            color: red;
+        }
+        </style>
+    <p id="para2">Hello World!</p>
+
+    <style>
+        #para3 {
+            text-align: left;
+            color: black;
+        }
+    </style>
+    <p id="para3">This paragpraph is not affected by the style.</p>
+</body>
+    <hr>
+
+<head>
+        <h3> Selektor Kelas</h3>
+    </head>
+    <body>
+        <style>
+            .center {
+                text-align: center;
+                color: red;
+            }
+        </style>
+        <h1 class="center">Red and center-aligned heading</h1>
+        <p class="center">Red and center-aligned paragraph</p>
+</body>
+    <hr>
+
+    <head>
+        <h3>Selektor kelas untuk elemen HTML</h3>
+    </head>
+    <body>
+        <style>
+            .left {
+                text-align: left;
+                color: black;
+            }
+        </style>
+        <h1 class="left">This heading will not be affected</h1>
+        
+        <style>
+            .right {
+                text-align: right;
+                color: red;
+            }
+        </style>
+        <p class="right"> This paragraph will be red and right-aligned.</p>
+        </body>
+</html>

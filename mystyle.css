@@ -1,0 +1,14 @@
+body {
+    background-color: white;
+}
+.header {
+     background-color: lightblue;
+}
+.header h1 {
+    color: navy;
+    margin: 20px;
+}
+.header p {
+  color: black;
+  margin: 0px;
+}
