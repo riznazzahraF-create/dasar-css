@@ -1,0 +1,46 @@
+h1 {
+    color: pink ;
+    border: 15px solid skyblue;
+}
+body {
+    text-align: center;
+}
+
+pre
+{
+.garis-love {
+        text-align: left;
+        font-size: 24px;
+        letter-spacing: 10px;
+        color: pink;
+    }
+
+.border-love {
+    border: 10px solid transparent;
+    padding: 20px;
+    border-image: repeating-linear-gradient(
+        90deg,
+        pink 0 10px,
+        transparent 10px 20px
+    ) 10;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+}
+
+.border-love::before {
+    top: -20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 18px;
+}
+.border-love::after {
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+}
