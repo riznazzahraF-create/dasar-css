@@ -2,18 +2,20 @@ h1 {
     color: pink ;
     border: 15px solid skyblue;
 }
-body {
-    text-align: center;
-}
 
 pre
 {
-.garis-love {
+    .garis-love {
         text-align: left;
         font-size: 24px;
         letter-spacing: 10px;
         color: pink;
-    }
+}
+
+.garis-love::before {
+    content: "💖💘💝";
+}
+}
 
 .border-love {
     border: 10px solid transparent;
@@ -29,13 +31,18 @@ pre
 }
 
 .border-love::before {
+    content: "💖💘💝";
+    position: absolute;
     top: -20px;
     left: 0;
     right: 0;
     text-align: center;
     font-size: 18px;
 }
+
 .border-love::after {
+    content: "💖💘💝";
+    position: absolute;
     bottom: -20px;
     left: 0;
     right: 0;
@@ -43,4 +50,25 @@ pre
     font-size: 18px;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: skyblue;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+nav ul li a:hover {
+    background-color: pink;
 }
